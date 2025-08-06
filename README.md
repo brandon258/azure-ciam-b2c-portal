@@ -21,12 +21,13 @@ Demonstrate a complete CIAM flow for a sample application:
 
 ## 📁 Project Structure
 
-.
-├── infra/ # Terraform IaC for Azure AD B2C
-├── scripts/ # Graph API automation (PowerShell or Python)
-├── app/ # Optional frontend app (e.g. React)
-├── docs/ # Diagrams and documentation
-└── .github/ # GitHub Actions
+```text
+azure-ciam-b2c-portal/
+├── infra/         # Terraform IaC for Azure AD B2C
+├── scripts/       # Graph API automation (PowerShell or Python)
+├── app/           # Optional frontend app (e.g. React)
+├── docs/          # Diagrams and documentation
+└── .github/       # GitHub Actions
 
 ## 🔐 Identity Features
 
@@ -48,3 +49,4 @@ Demonstrate a complete CIAM flow for a sample application:
 
 - [`docs/setup-guide.md`](docs/setup-guide.md)
 - [`docs/architecture-diagram.png`](docs/architecture-diagram.png)
+```
