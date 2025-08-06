@@ -21,7 +21,7 @@ Demonstrate a complete CIAM flow for a sample application:
 
 ## 📁 Project Structure
 
-````text
+```text
 
 azure-ciam-b2c-portal/
 ├── infra/         # Terraform IaC for Azure AD B2C
@@ -29,7 +29,6 @@ azure-ciam-b2c-portal/
 ├── app/           # Optional frontend app (e.g. React)
 ├── docs/          # Diagrams and documentation
 └── .github/       # GitHub Actions
-
 ```
 
 ## 🔐 Identity Features
@@ -52,4 +51,7 @@ azure-ciam-b2c-portal/
 
 - [`docs/setup-guide.md`](docs/setup-guide.md)
 - [`docs/architecture-diagram.png`](docs/architecture-diagram.png)
-````
+
+```
+
+```
