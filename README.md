@@ -1,16 +1,14 @@
 # azure-ciam-b2c-portal
 
-A modern CIAM sandbox using Azure AD B2C, Microsoft Graph API, Terraform, and RBAC to simulate real-world customer identity solutions.
-
 This project simulates a real-world Azure CIAM (Customer Identity & Access Management) environment using:
 
 - **Azure AD B2C** for secure login, registration, and MFA
 - **Microsoft Graph API** for user automation
 - **Terraform** for Infrastructure-as-Code (IaC)
 - **PowerShell / Python scripting** for RBAC and user lifecycle
-- (Optional) **App frontend** to demonstrate OIDC login flow
+- **App frontend** to demonstrate OIDC login flow
 
-## 🚀 Use Case
+## Use Case
 
 Demonstrate a complete CIAM flow for a sample application:
 
@@ -19,7 +17,7 @@ Demonstrate a complete CIAM flow for a sample application:
 3. Admin portal automates user management
 4. All infrastructure is provisioned with Terraform
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 
@@ -31,7 +29,7 @@ azure-ciam-b2c-portal/
 └── .github/       # GitHub Actions
 ```
 
-## 🔐 Identity Features
+## Identity Features
 
 - OIDC sign-in/out
 - Multi-Factor Authentication (MFA)
@@ -39,7 +37,7 @@ azure-ciam-b2c-portal/
 - Group-based access control
 - Conditional access policies
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Azure AD B2C (Entra ID)
 - Microsoft Graph API
@@ -47,7 +45,7 @@ azure-ciam-b2c-portal/
 - PowerShell or Python
 - GitHub Actions
 
-## 📚 Documentation
+## Documentation
 
 - [`docs/setup-guide.md`](docs/setup-guide.md)
 - [`docs/architecture-diagram.png`](docs/architecture-diagram.png)
